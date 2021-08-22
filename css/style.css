@@ -137,4 +137,8 @@ div.names p {
 	header#apresentacao p {
 		width: 84%;
 	}
+
+	div.names {
+		display: none;
+	}
 }
