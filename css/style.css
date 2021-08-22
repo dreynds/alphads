@@ -69,6 +69,8 @@ section.sub-list {
 	margin: auto;
 	margin-top: 10px;
 
+	padding-bottom: 15px;
+
 	color: #fff;
 
 	border-top: 1px solid #404160;
@@ -77,10 +79,59 @@ section.sub-list {
 }
 
 section.sub-list h2 {
+	color: rgb(243, 46, 89);
+
 	padding: 10px;
+	padding-bottom: 0px;
+
+	margin-bottom: 5px;
 
 	font: 16pt Nunito,sans-serif;
 }
+
+section.sub-list a {
+	color: #fff;
+
+	margin-left: 20px;
+
+	text-decoration: underline;
+	font: Nunito,sans-serif;
+}
+
+div.images {
+	margin: auto;
+
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5px;
+}
+
+div.images img {
+	width: 143px;
+	height: 180px;
+
+	transform: scale(0.9);
+	transition: 0.2s;
+}
+
+div.images img:hover {
+	transform: scale(1);
+}
+
+div.names {
+	display: flex;
+	padding-left: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.names p {
+	width: 145px;
+	padding: 2px;
+}
+
+
+
 
 @media screen and (max-width: 980px) {
 	header#apresentacao p {
