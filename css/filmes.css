@@ -77,3 +77,12 @@ div#player iframe {
     margin-bottom: 10px;
     border: none;
 }
+
+@media screen and (max-width: 980px) {
+    div#infos img {
+        width: 80%;
+    }
+    div#infos p {
+        width: 80%;
+    }
+}
