@@ -18,12 +18,50 @@ div#main-div {
 	background-color: rgba(0,0,0,.25);
 
   	border: 1px solid #404160;
-  	border-radius: 8px;
+    border-radius: 8px;
+}
+
+div#infos {
+    background-color: rgba(0,0,0,.25);
+
+  	border-bottom: 1px solid #404160;
+    
+    padding-bottom: 25px;
+}
+
+div#infos span {
+    color: rgb(243, 46, 89);
+
+    font-weight: 600;
+}
+
+div#infos img {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 10px;
+
+    width: 50%;
+}
+
+div#infos p {
+    width: 64%;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #fff;
+
+	text-align: center;
+	font: 14px/1.25rem Nunito,sans-serif;
 }
 
 div#player {
     width: 97%;
     margin: auto;
+    margin-top: 30px;
     margin-bottom: 10px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
