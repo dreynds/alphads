@@ -89,13 +89,20 @@ section.sub-list h2 {
 	font: 16pt Nunito,sans-serif;
 }
 
-section.sub-list a {
+section.sub-list span {
 	color: #fff;
 
 	margin-left: 20px;
 
 	text-decoration: underline;
 	font: Nunito,sans-serif;
+}
+
+section.sub-list a {
+	color: #fff;
+
+	font: Nunito, sans-serif;
+	text-decoration: none;
 }
 
 div.images {

@@ -1,0 +1,41 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	background-color: rgb(13 17 23);
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+div#main-div {
+	width: 94%;
+
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	background-color: rgba(0,0,0,.25);
+
+  	border: 1px solid #404160;
+  	border-radius: 8px;
+}
+
+div#player {
+    width: 97%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+div#player iframe {
+    width: 95vw;
+    height: 56.25vw;
+    max-height: 100vh;
+    max-width: 177.78vh;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+}
