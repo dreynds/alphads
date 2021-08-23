@@ -100,6 +100,7 @@ section.sub-list a {
 
 div.images {
 	margin: auto;
+	margin-top: 10px;
 
 	padding-left: 5%;
 	padding-right: 5%;
@@ -128,6 +129,7 @@ div.names {
 div.names p {
 	width: 145px;
 	padding: 2px;
+	padding-top: 0px;
 }
 
 @media screen and (max-width: 1321px) {
