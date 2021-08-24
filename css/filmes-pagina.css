@@ -109,8 +109,8 @@ div.images {
 	margin: auto;
 	margin-top: 10px;
 
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
 	padding-bottom: 5px;
 }
 
@@ -129,8 +129,8 @@ div.images img:hover {
 div.names {
 	display: flex;
 	padding-left: 10px;
-	padding-left: 3%;
-	padding-right: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 div.names p {
