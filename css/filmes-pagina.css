@@ -115,7 +115,7 @@ div.images {
 }
 
 div.images img {
-	width: 93px;
+	width: 96px;
 	height: 130px;
 
 	transform: scale(0.9);
@@ -134,7 +134,7 @@ div.names {
 }
 
 div.names p {
-	width: 103px;
+	width: 96px;
 
 	padding: 2px;
 	padding-top: 0px;
